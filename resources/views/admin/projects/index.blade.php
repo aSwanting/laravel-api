@@ -60,6 +60,7 @@
                     @endforelse
                 </tbody>
             </table>
+            {{ $projects->links() }}
         </div>
     </section>
 @endsection
